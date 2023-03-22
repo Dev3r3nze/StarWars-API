@@ -76,7 +76,7 @@ function App () {
         <button onClick={() => updateCustomName()}>Buscar</button>
         <br />
         <button onClick={() => updateNum(Math.random() * 50 + 1)}>Random</button>
-        {nombre !== '' ? <h3>Tu personaje es: </h3> : <h3>Personaje no encontrado</h3>}
+        {nombre !== '' ? <h3 id=''>Tu personaje es: </h3> : <h3>Personaje no encontrado</h3>}
         {nombre && <p>Nombre: {nombre}</p>}
         {gender && <p>Genero: {gender}</p>}
         {altura && <p>Altura: {altura} cm</p>}
